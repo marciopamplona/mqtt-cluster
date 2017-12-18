@@ -12,7 +12,7 @@ foo:foobar
 Now hash the password using `mosquitto_passwd`
 
 ```sh
-mosquitto_passwd -U passwd
+mosquitto_passwd -U pwdfile
 ```
 
 The file would be updated and included in the image.
